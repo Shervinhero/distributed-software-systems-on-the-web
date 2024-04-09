@@ -10,3 +10,12 @@ for (var j = 0; j < fruits.length; j++) {
 }
 
 console.log(uppercaseFruits);
+--------------------------------------------
+Es6 version
+const fruits = ['apple', 'banana', 'cherry'];
+
+const uppercaseFruits = fruits.map(fruit => fruit.toUpperCase());
+
+fruits.forEach(fruit => console.log('Fruit: ' + fruit));
+
+console.log(uppercaseFruits);
